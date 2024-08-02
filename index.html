@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfoili</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/c8da4091e4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="logo" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Protfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="front-text">
+                <p>Blockchain Developer</p>
+                <h1>Hi,I'm <span>Tarun</span><br>From India</h1>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------about------------------------>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="row1">
+                    <img src="images/about img.JPG" class="aboutimg">
+                </div>
+                <div class="row2">
+                    <h1>About Me</h1>
+                    <p>As a blockchain developer, I keep up-to-date with the latest developments
+                        in the industry, attend conferences and meetups, and collaborate with other
+                        developers to share knowledge and best practices. I am always looking for
+                        ways to improve my skills and knowledge, whether through online courses,
+                        open-source projects, or personal projects.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Blockchain Developer</span><br>Web3 Websites</li>
+                            <li><span>Solidity Developer</span><br>Smart Contract</li>
+                            <li><span>Web Developer</span><br>Web App Developer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>2021-2022</span><br>Bootcamp</li>
+                            <li><span>2022-2023</span><br>Intership at abc labs & completed B.com</li>
+                            <li><span>2023-2024</span><br>Current looking for Jobs</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>2Years</span><br>Web App Developer</li>
+                            <li><span>1Year</span><br>Smart Contract</li>
+                            <li><span>1Year</span><br>Web3 Websites</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--------------services---------------------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Desing</h2>
+                    <p>Web designing is the process of planning, conceptualizing, and implementing the plan for
+                         designing a website in a way that is functional and offers a good user experience. 
+                         User experience is central to the web designing process. Websites have an array of 
+                         elements presented in ways that make them easy to navigate.
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-file-signature"></i>
+                    <h2>Blockchain Developer</h2>
+                    <p>A blockchain developer develops decentralized applications (dApps) and smart contracts based on blockchain 
+                        technology, as well as understanding the architecture and protocols of the technology. 
+                        
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Developer</h2>
+                    <p>Being an app developer is the ability to develop mobile apps on various platforms like Android,
+                         iOS, Flutter, and React Native to provide a better user interface and user experience. 
+                        Being a web developer is the ability to develop websites.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------------------portfolio------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Dictionay App</h3>
+                        <p>this is a dictionay app that is used to find the meaning for a particular
+                            word for the word you on't know the meaning. <p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.jpg" alt="">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>this is a dictionay app that is used to find the meaning for a particular
+                            word for the word you on't know the meaning. <p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work3.jpg" alt="">
+                    <div class="layer">
+                        <h3>NFT MarketPlace</h3>
+                        <p>this is a dictionay app that is used to find the meaning for a particular
+                            word for the word you don't know the meaning. <p>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</div>
+
+<!----------------contact---------------->
+
+<div id="contact">
+    <form action="https://api.web3forms.com/submit" method="POST">
+    <div class="container">
+        <h1>Contact Me</h1>
+       
+            <div class="left">
+            <input type="hidden" name="access_key" value="5da1e261-cf77-4374-b37e-790e2a92d8f6">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="text" name="Email" placeholder="Your Email" required>
+        </div>
+        <div class="right">
+            <textarea name="Message" rows="10"></textarea>
+            <button type="submit">Submit</button>
+
+        </div>
+       
+
+       
+    </div>
+</form>
+</div>
+
+<div class="copyright">
+    <h2>copyright@Tarun made with vscode and others</h2>
+</div>
+
+</body>
+
+</html>
